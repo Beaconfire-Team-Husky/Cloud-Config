@@ -1,6 +1,14 @@
 spring:
-  application: 
-    name: employee-core-service
+  datasource:
+    url: jdbc:mysql://hr-manage.cvqwjngscp9k.us-east-1.rds.amazonaws.com:3306/backend
+    username: root
+    password: mysql12345
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
 
 server:
   port: 8081
