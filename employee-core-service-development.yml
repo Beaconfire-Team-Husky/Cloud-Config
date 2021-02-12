@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: employee-core-service
+
 server:
   port: 8081
   
