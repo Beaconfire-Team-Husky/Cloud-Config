@@ -13,3 +13,6 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
+user:
+  role: hello shawn
