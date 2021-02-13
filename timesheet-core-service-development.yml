@@ -10,12 +10,13 @@ eureka:
     preferIpAddress: true
 
 spring:
+  application:
+    name: timesheet-core
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://huskyproject.cmxa7p2e3tnw.us-east-2.rds.amazonaws.com
     username: admin
     password: Zz010013
-
   data:
     mongodb:
       uri: mongodb+srv://admin:Zz010013@huskyproject.ktn9x.mongodb.net/timesheet?retryWrites=true&w=majority
