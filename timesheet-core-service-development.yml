@@ -9,9 +9,4 @@ eureka:
   instance:
     preferIpAddress: true
 
-spring:
-  application:
-    name: timesheet-core-service
-  data:
-    mongodb:
-      uri: mongodb+srv://admin:Zz010013@huskyproject.ktn9x.mongodb.net/timesheet?retryWrites=true&w=majority
+
