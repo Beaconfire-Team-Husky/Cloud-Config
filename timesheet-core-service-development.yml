@@ -9,4 +9,7 @@ eureka:
   instance:
     preferIpAddress: true
 
-
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:Zz010013@huskyproject.ktn9x.mongodb.net/timesheet?retryWrites=true&w=majority
